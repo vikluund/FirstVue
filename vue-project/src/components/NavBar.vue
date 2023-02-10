@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <div id="navbar">
+  <span class="toggle button">&#9776;</span>
     <ul>
       <li>
         <RouterLink to="/">Hem</RouterLink>
@@ -40,5 +41,26 @@ import { RouterLink, RouterView } from "vue-router";
 }
 #navbar ul li a:hover {
   color: rgb(21, 199, 101);
+  font-weight: normal;
+}
+#navbar .toggle-button {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  /* Show toggle button for smaller screens */
+  #navbar .toggle-button {
+    display: block;
+  }
+
+  /* Show navigation items */
+  #navbar ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
 }
 </style>
