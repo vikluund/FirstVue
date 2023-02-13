@@ -46,4 +46,25 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+.navbar-brand{
+  color: #da2543;
+  text-shadow: 2px 2px 3px #000000a1;
+  font-size: 1.5em;
+}
+.offcanvas-title{
+  color: black;
+}
+.navbar-toggler{
+  color: #17cccc;
+  background-color: #da2543;
+  box-shadow: 2px 2px 3px #000000a1;
+}
+button.navbar-toggler{
+  color: #17cccc;
+}
+span.navbar-toggler-icon{
+  color: #17cccc;
+}
+
+</style>
