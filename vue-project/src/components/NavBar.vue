@@ -3,64 +3,47 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div id="navbar">
-  <span class="toggle button">&#9776;</span>
-    <ul>
-      <li>
-        <RouterLink to="/">Hem</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/about">About</RouterLink>
-      </li>
-    </ul>
-  </div>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <RouterLink class="navbar-brand" to="/">The First Vue</RouterLink>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">The First Vue</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/about">About</RouterLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
   <RouterView />
-
 </template>
 
-<style scoped>
-#navbar {
-  margin: 0 auto;
-  padding: 0;
-  height: 10vh;
-}
-#navbar ul {
-  display: flex;
-  justify-content: center;
-}
-#navbar ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 100px;
-}
-
-#navbar ul li a {
-  text-decoration: none;
-  color: rgb(39, 169, 192);
-  font-size: 2.5em;
-}
-#navbar ul li a:hover {
-  color: rgb(21, 199, 101);
-  font-weight: normal;
-}
-#navbar .toggle-button {
-  display: none;
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  cursor: pointer;
-}
-@media only screen and (max-width: 800px) {
-  /* Show toggle button for smaller screens */
-  #navbar .toggle-button {
-    display: block;
-  }
-
-  /* Show navigation items */
-  #navbar ul li {
-    display: block;
-    text-align: center;
-    margin: 10px 0;
-  }
-}
-</style>
+<style scoped></style>
