@@ -66,5 +66,28 @@ button.navbar-toggler{
 span.navbar-toggler-icon{
   color: #17cccc;
 }
-
+#offcanvasNavbar > div.offcanvas-header {
+  background-color: rgb(20, 20, 20);
+}
+#offcanvasNavbar > div.offcanvas-body {
+  background-color: rgb(27, 27, 27);
+}
+#offcanvasNavbarLabel {
+  color: #da2543;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a {
+  color:#da2543;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a:hover {
+  color:#17cccc;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > a {
+  color: #da2543;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > a:hover {
+  color: #17cccc;
+}
+#offcanvasNavbar > div.offcanvas-header > button {
+  background-color: #da2543;
+}
 </style>
