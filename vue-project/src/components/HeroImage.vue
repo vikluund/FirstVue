@@ -3,7 +3,7 @@
   <div id="hero-img">
     <img src="../assets/media/FarOldElephantbeetle-max-1mb.gif" class="img-fluid" alt="Hero Image"/>
     <div class="hero-text">
-      <h1>WELCOME TO MY PROJECT</h1>
+      <h1>WELCOME</h1>
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@
   color: #da2543;
 }
 .hero-text h1{
-  font-size: 4.5em;
+  font-size: 6.5em;
   font-weight: bold;
   letter-spacing: 0.05em;
   text-shadow: 2px 2px 3px #000000a1;
