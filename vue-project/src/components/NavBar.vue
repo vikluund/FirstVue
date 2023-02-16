@@ -49,7 +49,7 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 .navbar-brand{
   color: #da2543;
-  text-shadow: 2px 2px 3px #000000a1;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
   font-size: 1.5em;
 }
 .offcanvas-title{
@@ -74,20 +74,24 @@ span.navbar-toggler-icon{
 }
 #offcanvasNavbarLabel {
   color: #da2543;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a {
   color:#da2543;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a:hover {
   color:#17cccc;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > a {
   color: #da2543;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > a:hover {
   color: #17cccc;
 }
 #offcanvasNavbar > div.offcanvas-header > button {
   background-color: #da2543;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 </style>

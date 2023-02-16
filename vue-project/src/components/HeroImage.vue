@@ -38,6 +38,6 @@
   font-size: 6.5em;
   font-weight: bold;
   letter-spacing: 0.05em;
-  text-shadow: 2px 2px 3px #000000a1;
+  text-shadow: 2px 2px 18px #bd0e0ea1;
 }
 </style>

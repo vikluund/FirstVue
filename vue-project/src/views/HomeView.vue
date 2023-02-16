@@ -36,5 +36,6 @@ export default {
   margin-top: 15vh;
   color: #da2543;
   font-size: 4em;
+  text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 </style>
