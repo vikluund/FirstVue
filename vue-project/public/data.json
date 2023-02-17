@@ -3,60 +3,64 @@
     "id":"1",
     "name": "Super Mario Bros.",
     "year": "1985",
-    "info": "He's cool"
+    "info": "The first game of the Super Mario franchise. Console: NES",
+    "image": "../src/assets/media/mario1.png"
   },
   {
     "id":"2",
-    "name": "Super Mario Bros. 3",
-    "year": "1988",
-    "info": "He's cool"
+    "name": "The Legend of Zelda",
+    "year": "1987",
+    "info": "The first game of the Zelda franchise. Console: NES",
+    "image": "../src/assets/media/zelda1.png"
   },
   {
     "id":"3",
-    "name": "Super Mario World",
-    "year": "2019",
-    "info": "He's cool"
+    "name": "Super Mario Bros. 3",
+    "year": "1988",
+    "info": "The third game of the Super Mario franchise. Console: NES",
+    "image": "../src/assets/media/mario3.png"
   },
   {
     "id":"4",
-    "name": "Super Mario Land",
-    "year": "2019",
-    "info": "He's cool"
+    "name": "Super Mario World",
+    "year": "1990",
+    "info": "The third game of the Super Mario franchise. Console: NES",
+    "image": "../src/assets/media/mario world.png"
   },
   {
     "id":"5",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   },
   {
     "id":"6",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   },
   {
     "id":"7",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   },
   {
     "id":"8",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   },
   {
     "id":"9",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   },
   {
     "id":"10",
     "name": "The First",
     "year": "2019",
-    "info": "He's cool"
+    "info": "The third game of the Super Mario franchise. Console: NES"
   }
 ]

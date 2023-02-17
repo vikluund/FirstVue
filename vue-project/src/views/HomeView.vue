@@ -9,7 +9,11 @@ import TheCharacters from '../components/TheCharacters.vue'
   <div id="cards">
   <div class="container text-center">
     <div class="row align-items-start">
-      <TheCharacters/>
+        <the-characters
+          v-for="character in characters"
+          :key="character.id"
+          :char="character"
+        />
     </div>
    </div>
 </div>
@@ -18,7 +22,19 @@ import TheCharacters from '../components/TheCharacters.vue'
 export default {
   data(){
     return {
-      message:"The history of pixel games"
+      message:"The history of pixel games",
+      characters: []
+    }
+  },
+  components: { "the-characters": TheCharacters },
+  mounted(){
+    this.fetchData()
+  },
+  methods: {
+    async fetchData(){
+      const response = await fetch("data.json");
+      const result = await response.json()
+      this.characters = result
     }
   }
 }
