@@ -3,64 +3,70 @@
     "id":"1",
     "name": "Super Mario Bros.",
     "year": "1985",
-    "info": "The first game of the Super Mario franchise. Console: NES",
+    "info": "Console: NES",
     "image": "../src/assets/media/mario1.png"
   },
   {
     "id":"2",
     "name": "The Legend of Zelda",
-    "year": "1987",
-    "info": "The first game of the Zelda franchise. Console: NES",
+    "year": "1986",
+    "info": "Console: NES",
     "image": "../src/assets/media/zelda1.png"
   },
   {
     "id":"3",
-    "name": "Super Mario Bros. 3",
-    "year": "1988",
-    "info": "The third game of the Super Mario franchise. Console: NES",
-    "image": "../src/assets/media/mario3.png"
+    "name": "Metroid",
+    "year": "1986",
+    "info": "Console: NES",
+    "image": "../src/assets/media/metroid1.png"
   },
   {
     "id":"4",
-    "name": "Super Mario World",
-    "year": "1990",
-    "info": "The third game of the Super Mario franchise. Console: NES",
-    "image": "../src/assets/media/mario world.png"
+    "name": "Castlevania",
+    "year": "1986",
+    "info": "Console: NES",
+    "image": "../src/assets/media/Castlevania1.png"
   },
   {
     "id":"5",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "Mega Man",
+    "year": "1987",
+    "info": "Console: NES",
+    "image": "../src/assets/media/MM1.png"
   },
   {
     "id":"6",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "Final Fantasy",
+    "year": "1987",
+    "info": "Console: NES",
+    "image": "../src/assets/media/FF1.png"
   },
   {
     "id":"7",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "Super Mario Bros. 3",
+    "year": "1988",
+    "info": "Console: NES",
+    "image": "../src/assets/media/mario3.png"
   },
   {
     "id":"8",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "Super Mario World",
+    "year": "1990",
+    "info": "Console: SNES",
+    "image": "../src/assets/media/mario world.png"
   },
   {
     "id":"9",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "A Link to the Past",
+    "year": "1991",
+    "info": "Console: SNES",
+    "image": "../src/assets/media/zelda2.png"
   },
   {
     "id":"10",
-    "name": "The First",
-    "year": "2019",
-    "info": "The third game of the Super Mario franchise. Console: NES"
+    "name": "Super Metroid",
+    "year": "1994",
+    "info": "Console: SNES",
+    "image": "../src/assets/media/samus1.png"
   }
 ]

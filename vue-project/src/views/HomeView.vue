@@ -22,7 +22,7 @@ import TheCharacters from '../components/TheCharacters.vue'
 export default {
   data(){
     return {
-      message:"The history of pixel games",
+      message:"Some of the classic pixel games",
       characters: []
     }
   },

@@ -42,4 +42,21 @@
 #cards > div > div > div > div > img{
   background-color: #1a1919;
 }
+.col{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  margin: 0 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 </style>
