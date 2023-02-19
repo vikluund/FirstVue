@@ -22,7 +22,9 @@ import { RouterLink, RouterView } from "vue-router";
         aria-labelledby="offcanvasNavbarLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">The First Vue</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            The First Vue
+          </h5>
           <button
             type="button"
             class="btn-close"
@@ -33,7 +35,9 @@ import { RouterLink, RouterView } from "vue-router";
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
+              <RouterLink class="nav-link active" aria-current="page" to="/"
+                >Home</RouterLink
+              >
             </li>
             <li class="nav-item">
               <RouterLink class="nav-link" to="/about">About</RouterLink>
@@ -47,23 +51,23 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style scoped>
-.navbar-brand{
+.navbar-brand {
   color: #da2543;
   text-shadow: 2px 2px 5px #bd0e0ea1;
   font-size: 1.5em;
 }
-.offcanvas-title{
+.offcanvas-title {
   color: black;
 }
-.navbar-toggler{
+.navbar-toggler {
   color: #17cccc;
   background-color: #da2543;
   box-shadow: 2px 2px 3px #000000a1;
 }
-button.navbar-toggler{
+button.navbar-toggler {
   color: #17cccc;
 }
-span.navbar-toggler-icon{
+span.navbar-toggler-icon {
   color: #17cccc;
 }
 #offcanvasNavbar > div.offcanvas-header {
@@ -77,11 +81,11 @@ span.navbar-toggler-icon{
   text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a {
-  color:#da2543;
+  color: #da2543;
   text-shadow: 2px 2px 5px #bd0e0ea1;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(1) > a:hover {
-  color:#17cccc;
+  color: #17cccc;
 }
 #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > a {
   color: #da2543;

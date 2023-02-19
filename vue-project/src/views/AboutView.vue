@@ -1,45 +1,47 @@
 <script setup>
-import AboutImage from '../components/AboutImage.vue'
+import AboutImage from "../components/AboutImage.vue";
 </script>
 <template>
- <AboutImage/>
- <h1 class="title">Please enter your e-mail below and we will be in touch!</h1>
+  <AboutImage />
+  <h1 class="title">Please enter your e-mail below and we will be in touch!</h1>
   <div class="input">
-    <input v-model="inputValue" type="text">
+    <input v-model="inputValue" type="text" />
     <button v-on:click="handleButtonClick">Enter</button>
     <div id="message" v-if="showImage">
-      Thank you!
-      We will contact you at: {{ inputValue }}
+      Thank you! We will contact you at: {{ inputValue }}
     </div>
     <div class="img-container">
-    <img :class="{'hidden': !showImage}" src="../assets/media/thumbsup.png" alt="Thumbs up from Mario">
-  </div>
+      <img
+        :class="{ hidden: !showImage }"
+        src="../assets/media/thumbsup.png"
+        alt="Thumbs up from Mario"
+      />
+    </div>
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      inputValue: '',
-      showImage: false
-    }
+      inputValue: "",
+      showImage: false,
+    };
   },
   methods: {
     handleButtonClick() {
-      if (this.inputValue !== ''){
+      if (this.inputValue !== "") {
         this.showImage = true;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
-
 
 <style scoped>
 .hidden {
   display: none;
 }
-.title{
+.title {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
@@ -65,5 +67,4 @@ export default {
   color: #da2543;
   margin-top: 20px;
 }
-
 </style>

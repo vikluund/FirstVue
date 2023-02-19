@@ -1,7 +1,11 @@
 <script></script>
 <template>
   <div id="hero-img">
-    <img src="../assets/media/FarOldElephantbeetle-max-1mb.gif" class="img-fluid" alt="Hero Image"/>
+    <img
+      src="../assets/media/FarOldElephantbeetle-max-1mb.gif"
+      class="img-fluid"
+      alt="Hero Image"
+    />
     <div class="hero-text">
       <h1>WELCOME</h1>
     </div>
@@ -27,14 +31,14 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
-.hero-text{
+.hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #da2543;
 }
-.hero-text h1{
+.hero-text h1 {
   font-size: 6.5em;
   font-weight: bold;
   letter-spacing: 0.05em;
